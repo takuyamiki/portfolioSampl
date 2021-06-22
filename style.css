@@ -8,11 +8,15 @@ body {
   color: #00ABAE;
 }
 
+.sub-title {
+  font-size: 32px;
+}
+
 /* headerのスタイル */
 .block-header {
   margin: 10px 0;
   padding: 0 20px 10px;
-  box-shadow: 0 10px 10px -5px rgba(204,204,204,0.3);
+  box-shadow: 0 10px 20px -5px rgba(204,204,204,0.3);
 }
 
 .block-header a {
@@ -21,3 +25,47 @@ body {
   text-decoration: none;
   letter-spacing: 1px;
 }
+
+
+/* mainタグのスタイルシート */
+.block-main {
+  text-align: center;
+  margin: 100px 0;
+} 
+
+.item-list {
+  width: 100%;
+  max-width: 348px;
+  margin: 0 auto;
+}
+
+.item-list b {
+  display: block;
+  font-size: 24px;
+  font-weight: normal;
+  margin: 20px 0 30px;
+}
+
+.item-list p {
+  font-size: 15px;
+  line-height: normal;
+  text-align: left;
+}
+
+.icon-list {
+  list-style: none;
+  width: 100%;
+  max-width: 247px;
+  margin: 30px auto;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-list li {
+  margin-right: 11px;
+  margin-left: 11px;
+}
+
+
