@@ -68,4 +68,84 @@ body {
   margin-left: 11px;
 }
 
+  /* Worksのスタイルシート */
 
+.box-works {
+  margin: 80px 0 0;
+}
+
+.works-list {
+  list-style: none;
+  width: 100%;
+  max-width: 1076px;
+  margin: 30px auto;
+  padding: 0;
+  text-align: left;
+  overflow: hidden;
+}
+
+.block1 {
+  display: block;
+  width: 100%;
+  max-width: 348px;
+  float: left;
+  margin-right: 15px;
+}
+
+.block2 {
+  display: block;
+  width: 100%;
+  max-width: 348px;
+  float: left;
+  margin-right: 15px;
+}
+
+.block3 {
+  display: block;
+  width: 100%;
+  max-width: 348px;
+  float: left;
+  margin-right: 15px;
+}
+
+.works-list li img {
+  width: 100%;
+  border: 1px solid #ccc;
+}
+
+.works-list li:last-child{
+  margin-right: 0;
+}
+
+.works-list li h3 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+,.works-list li span {
+  font-size: 18px;
+}
+
+
+.link {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  margin: 15px 0 0;
+}
+
+.link a {
+  background-color: rgb(226, 226, 226);
+  padding: 5px 20px;
+  margin-right: 10px;
+  font-size: 15px;
+  text-decoration: none;
+  color: #000;
+}
+
+.block-footer p {
+  clear: both;
+  text-align: center;
+  font-size: 15px;
+  margin: 50px 0 20px;
+}
